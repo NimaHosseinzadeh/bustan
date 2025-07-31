@@ -1,0 +1,120 @@
+@media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  }
+
+  .login_website {
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(243, 245, 255, 0.3);
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .login_left {
+    display: none !important;
+  }
+
+  .login_right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title_login {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 77, 107);
+  }
+
+  .login_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .code_m,
+  .password_m,
+  .input_cap_login,
+  .submit_login {
+    width: 100%;
+    font-size: 16px;
+    margin: 12px 0;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .nav_hidden_password {
+    position: absolute;
+    top: 92px;
+    left: 10px;
+    width: 42px;
+    height: 42px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .cap_login {
+    display: block;
+    width: 140px;
+    margin: 60px auto 15px auto;
+  }
+
+  .input_cap_login {
+    margin-bottom: 20px;
+  }
+
+  .checkbox_desktop_view {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 25px;
+    position: relative;
+  }
+
+  .checkbox_desktop_view input[type="checkbox"] {
+    accent-color: #0c769f;
+    border: 1px solid #87bfff;
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+  }
+
+  .checkbox_desktop_view::before {
+    content: "نمایش صفحات داخلی بصورت دسکتاپ";
+    color: #212529;
+    font-family: iransansL;
+    font-size: 14px;
+  }
+
+  .submit_login {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .link_login {
+    text-align: right;
+    width: 100%;
+    font-size: 13px;
+    padding: 5px 0;
+    margin-bottom: 5px;
+  }
+}
