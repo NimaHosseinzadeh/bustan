@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'iransansR';
+    src: url('../fonts/IRANSans_Medium.ttf');
+}
+
+@font-face {
+    font-family: 'iransansL';
+    src: url('../fonts/IRANSans_Light.ttf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/download.svg');
+    background-color: #66cca6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 600px;
+    height: 428px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img{
+    margin-top: 40px;
+    width: 100px;
+    height: 109px;
+}
+
+h3{
+    color: #007e3d;
+    font-family: iransansL;
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: 800px;
+}
+
+h4{
+    color: #444444;
+    font-family: iransansL;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ta{
+    color: #777777;
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: iransansL;
+}
+
+.pyp{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    position: relative;
+    top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #007acc;
+    font-size: 15px;
+    font-family: iransansR;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    
+}
+
