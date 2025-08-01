@@ -196,3 +196,20 @@ body{
 .date_edit_login{
 
 }
+
+.lock{
+    display: inline;
+    padding: 10px;
+    width: 80px;
+    border-radius: 8px;
+    color: #fff;
+    height: 50px;
+    border: 2px solid orangered;
+    background-color: #df176a;
+    position: relative;
+    right: 60px;
+}
+
+.lock:hover{
+    background-color: #df176aaf;
+}
