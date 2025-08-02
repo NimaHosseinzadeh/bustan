@@ -1,121 +1,71 @@
-@media screen and (max-width: 768px) {
-  body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px;
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
-  }
+/* بدنه و پس‌زمینه */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'iransansR', sans-serif;
+  background-color: #58b1a9; /* رنگ سبز ملایم */
+  background-image: url('../img/download.svg'); /* تصویر پترن */
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-  .login_website {
-    flex-direction: column;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(243, 245, 255, 0.3);
-    padding: 20px;
-    background-color: #fff;
-  }
+/* کارت سفید وسط صفحه */
+.main {
+  background-color: white;
+  border-radius: 15px;
+  width: 90vw;
+  max-width: 400px;
+  padding: 30px 10p;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  color: #222;
+}
 
-  .login_left {
-    display: none !important;
-  }
+/* لوگو */
+.main img {
+  
+}
 
-  .login_right {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+/* تیتر با رنگ سبز */
+.main h3 {
+  color: #1b6e4a; /* سبز تیره */
+  font-weight: 700;
+  
+}
 
-  .title_login {
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: rgb(0, 77, 107);
-  }
+/* متن وسط */
+.main h4 {
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 3px;
+  font-size: 1rem;
+  color: #000000;
+  font-size: 20px;
+}
 
-  .login_form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  }
+/* متن کوچک تشکر */
+.main p.ta {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 5px;
+}
 
-  .code_m,
-  .password_m,
-  .input_cap_login,
-  .submit_login {
-    width: 100%;
-    font-size: 16px;
-    margin: 12px 0;
-    border-radius: 5px;
-    padding: 10px;
-  }
+/* لینک‌ها */
+.main a {
+  color: #0d6efd; /* آبی لینک */
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 10px;
+  font-size: 0.9rem;
+}
 
-  .nav_hidden_password {
-    position: absolute;
-    top: 92px;
-    left: 10px;
-    width: 42px;
-    height: 42px;
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
-    border-radius: 0 5px 5px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-  }
-
-  .cap_login {
-    display: block;
-    width: 140px;
-    margin: 60px auto 15px auto;
-  }
-
-  .input_cap_login {
-    margin-bottom: 20px;
-  }
-
-  .checkbox_desktop_view {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 25px;
-    position: relative;
-  }
-
-  .checkbox_desktop_view input[type="checkbox"] {
-    accent-color: #0c769f;
-    border: 1px solid #87bfff;
-    width: 18px;
-    height: 18px;
-    margin-left: 8px;
-  }
-
-  .checkbox_desktop_view::before {
-    content: "نمایش صفحات داخلی بصورت دسکتاپ";
-    color: #212529;
-    font-family: iransansL;
-    font-size: 14px;
-  }
-
-  .submit_login {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 25px;
-  }
-
-  .link_login {
-    text-align: right;
-    width: 100%;
-    font-size: 13px;
-    padding: 5px 0;
-    margin-bottom: 5px;
-  }
+/* خط جداکننده */
+.main .pyp {
+  display: inline-block;
+  margin: 0 5px;
+  color: #999;
+  font-weight: 700;
 }
